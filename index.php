@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
 </head>
 <body>
-    <h1>hello</h1>
+    <h1>Hello world I am Anna</h1>
 
-    <?php
+   
+<nav class="main_navi">
+
+<?php
 
 if ($_GET['page'] == 1) {
     echo "
@@ -25,8 +29,8 @@ if ($_GET['page'] == 2) {
     <a class='active' href='index.php?page=2'>About me</a>
     <a class='' href='index.php?page=3'>Shop</a>
     ";
-    require_once 'page2.php';
-}
+    require_once 'page2.php';}
+
 
 if ($_GET['page'] == 3) {
     echo "
@@ -34,7 +38,13 @@ if ($_GET['page'] == 3) {
     <a class='' href='index.php?page=2'>About me</a>
     <a class='active' href='index.php?page=3'>Shop</a>
     ";
-    require_once 'page3.php';
-}
+    require_once 'page3.php';}
+
+
+?>
+</nav>
+
+
+
 </body>
 </html>
