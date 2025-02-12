@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css.css">
 </head>
 <body>
-    <h1>Hello world I am Anna</h1>
+    <h1>Hello world I am Anna and Gabor</h1>
 
    
 <nav class="main_navi">
